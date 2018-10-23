@@ -231,13 +231,13 @@ contract PIPOT is Owner {
         if(orders[game][winPrice].length > 0){
             for(uint i = 0; i < orders[game][winPrice].length;i++){
                 orders[game][winPrice][i].transfer(toPlayer);
+                allTimeJackpot += jackpot[game];
                 emit Winner(orders[game][winPrice][i], winPrice, toPlayer);
             }   
         }else{
             emit Lose(winPrice, jackpot[game]);
         }
         
-        allTimeJackpot += toPlayer;
         allTimePlayers += players[game].length;
     }
 }
