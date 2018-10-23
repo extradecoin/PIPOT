@@ -2,6 +2,8 @@
 <h1><img src="https://i.imgur.com/99tQcKM.png"/> PIPOT - THE MOST FAIR BLOCKCHAIN JACKPOT</h1>
 
 Contract Address: <a href="https://etherscan.io/address/0xee52d05a2351151beabedb7a9e38cc1a2095a8ce" target="_blank">0xEE52D05a2351151BEAbEDB7a9E38cc1A2095a8Ce</a>
+<br/>
+Website: <a href="https://pipot.io" target="_blank">PIPOT</p>
 
 <h4>Game play</h4>
 
